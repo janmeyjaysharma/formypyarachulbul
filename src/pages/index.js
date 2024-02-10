@@ -177,7 +177,7 @@ const ValentinePage = () => {
       )}
 
       <div style={{ marginTop: 'auto', position: 'absolute', bottom: '0', width: '100%' }}>
-        <p style={{ color: 'grey', fontSize: '10px' }}>
+        <p style={{ color: 'grey', fontSize: '25px' }}>
           Yours JJ 💜
         </p>
       </div>
