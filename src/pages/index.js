@@ -23,7 +23,7 @@ const ValentinePage = () => {
   }, [showThanks]);
 
   const persuadeTexts = [
-    'Are you sure? ',
+    'Are you sure Chulbul? ',
     'You might regret it!',
     'Really? Think again!',
     'Come on, don\'t be shy! Give it a shot!',
@@ -36,8 +36,8 @@ const ValentinePage = () => {
     'Say yes and let the magic begin!',
     'You\'re breaking my heart!',
     'I would be sad. Say yes!',
-    'Last chance! Say yes and make my day!',
-    'You are leaving me no choice! Say yes!'
+    'Last chance! Say yes Chulbul !',
+    'You are leaving me no choice! Say yes! '
   ];
 
   const handleClick = (answer) => {
@@ -73,7 +73,7 @@ const ValentinePage = () => {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <Analytics />
       <h1 style={{ color: 'black', fontSize: '2em' }}>
-        Will you be my 
+        Will you be my Valentine CHULBUL ?
         {/* valentine? */}
       </h1>
       <img
@@ -146,25 +146,8 @@ const ValentinePage = () => {
             }}
           />
           <h2 style={{ color: 'darkslategray', fontSize: '2em' }}>
-            Thanks for being my valentine! Will be seeing you soon! 🥰
+            Thanks for being my valentine! Will be seeing you soon Chulbul! 🥰
           </h2>
-          <button
-            onClick={handleNextPage}
-            style={{
-              backgroundColor: 'violet',
-              color: 'white',
-              borderRadius: '100%',
-              paddingBottom: '30px',
-              marginTop: '15px',
-              paddingTop: '30px',
-              paddingRight: '40px',
-              paddingLeft: '40px',
-              cursor: 'pointer',
-              fontSize: '2em',
-            }}
-          >
-            ➔
-          </button>
         </div>
       )}
       {showInputPage && <DateInputPage />} {/* Render the new input page component */}
@@ -195,7 +178,7 @@ const ValentinePage = () => {
 
       <div style={{ marginTop: 'auto', position: 'absolute', bottom: '0', width: '100%' }}>
         <p style={{ color: 'grey', fontSize: '10px' }}>
-          Need sponsorship to keep systems up and running <a href="https://github.com/sponsors/shivansh-13" style={{ color: 'grey', textDecoration: 'underline' }}> Github Sponsorship</a> Love 💜
+          Yours JJ 💜
         </p>
       </div>
 
